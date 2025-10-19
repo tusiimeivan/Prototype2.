@@ -1,0 +1,137 @@
+ *{
+	margin: 0;
+	line-height: 1.5;
+	font-family: 'Trebuchet MS';
+	box-sizing: border-box;
+	text-align: center;
+	background-color: lightyellow;
+
+}
+section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.logot{
+	margin-bottom: 2px;
+	background-color: greenyellow;
+}
+.logo img{
+	margin-top: 6px;
+	margin-left:6px;
+	width: 100px;
+	height: 100px;
+	border-radius: 80px;
+}
+.logo{
+    width: 1px;
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid rgb(17, 15, 15);
+    color: lightyellow;
+    padding: 4px;
+    font-size: bold;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgreen;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.btn{
+    text-align: centre;
+    width: 30%;
+    background: greenyellow;
+}
+.text{
+	margin-left: 180px;
+
+}
+.text h1{
+	background-color: greenyellow;
+	font-size: xx-large;
+	font-weight: bold;
+}
+.text h3{
+	background-color: greenyellow;
+}
+.text h6{
+	background-color: greenyellow;
+}
+form,.legend{
+	text-align: left;
+	margin-left: 20px;
+}
+input ,textarea ,select{
+	border: 1px solid darkblue;
+}
+.about{
+	display: block;
+	width: 95%;
+	margin: 0px auto;
+	margin-top: 20px;
+}
+.listi ul,li,ol{
+	text-align: left;
+	margin-left: 20px;
+	padding-bottom: 20px;
+}
+.buyers , .sellers{
+	width:50%;
+	margin-top: 20px;
+	width: 625px;
+	height: 550px;
+	margin-bottom: 20px;
+	border: 1px solid darkgreen;
+	justify-content: space-around;
+	padding: 10px;
+	border-radius: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+button{
+    text-decoration: none;
+    border: 1px solid rgb(17, 15, 15);
+    color: lightyellow;
+    padding: 4px;
+    font-size: bold;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgreen;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+footer h4, footer p{
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 25px 0;
+}
+.teamu{
+	display: block;
+	width: 95%;
+	margin: 0px auto;
+}
+.conta {
+	display: block;
+	text-align: left;
+}
+.starter{
+	margin-top: 20px;
+	color: darkgreen;
+}
+.inquire{
+	color: darkgreen;
+	margin-right: 900px;
+}
+h2{
+	color: darkgreen;
+}
+.fed{
+	display: flex;
+	justify-content: left;
+}
